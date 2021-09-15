@@ -7,7 +7,7 @@ import ProvinceComponent from "./ProvinceComponent";
 const ProvinceList = () => {
   const dispatch = useDispatch();
   const fetchProducts = async () => {
-    const response = await axios.get('https://feriirawan-api.herokuapp.com/list/symbols/province/200')
+    const response = await axios.get('https://feriirawan-api.herokuapp.com/list/symbols/province/150')
       .catch((err) => {
         console.log("err", err);
       })

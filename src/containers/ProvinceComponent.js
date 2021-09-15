@@ -9,14 +9,18 @@ const ProvinceComponent = () => {
 
     return (
       <div key={index} className="province-list">
-        <img
-          src={url}
-          style={{
-            transition: "opacity .15s linear"
-          }}
-          alt="icon"
-        />
-        <h3>{title}</h3>
+        <div className="province-icon">
+          <img
+            src={url}
+            style={{
+              transition: "opacity .15s linear"
+            }}
+            alt="icon"
+          />
+        </div>
+        <div className="province-name">
+          <h3>{title}</h3>
+        </div>
       </div>
     );
   });
