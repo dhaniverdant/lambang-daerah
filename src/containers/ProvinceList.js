@@ -18,11 +18,7 @@ const ProvinceList = () => {
     fetchProducts();
   });
 
-  return (
-    <div>
-      <ProvinceComponent />
-    </div>
-  );
+  return <ProvinceComponent />;
 }
 
 export default ProvinceList;
