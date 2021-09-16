@@ -13,11 +13,11 @@ export const provinceReducer = (state = initialState, { type, payload }) => {
   }
 };
 
-export const selectedProvinceReducer = (state = {}, { type, payload }) => {
-  switch (type) {
-    case ActionTypes.SELECTED_PROVINCE:
-      return { ...state, ...payload };
-    default:
-      return state;
-  }
-};
+// export const selectedProvinceReducer = (state = {}, { type, payload }) => {
+//   switch (type) {
+//     case ActionTypes.SELECTED_PROVINCE:
+//       return { ...state, ...payload };
+//     default:
+//       return state;
+//   }
+// };

@@ -7,9 +7,9 @@ export const setProvinces = (provinces) => {
   };
 };
 
-export const selectedProvince = (province) => {
-  return {
-    type: ActionTypes.SELECTED_PROVINCE,
-    payload: province
-  };
-};
+// export const selectedProvince = (province) => {
+//   return {
+//     type: ActionTypes.SELECTED_PROVINCE,
+//     payload: province
+//   };
+// };
